@@ -295,7 +295,7 @@ public class Sistema {
         String cpf = input.nextLine();
 
         if (cpf.length() != 11) {
-            System.out.println("Cpf inválido\nFuncionário não cadastrado");
+            System.out.println("Cpf inválido\nSócio Torcedor não cadastrado");
             return;
         }
 
