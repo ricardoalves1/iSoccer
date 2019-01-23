@@ -132,6 +132,11 @@ public class Sistema {
             System.out.print("CPF: ");
             String cpf = input.next();
 
+            if (cpf.length() != 11) {
+                System.out.println("Cpf inválido\nFuncionário não cadastrado");
+                return;
+            }
+
             System.out.print("Telefone: ");
             String telefone = input.next();
 
@@ -288,6 +293,11 @@ public class Sistema {
 
         System.out.print("CPF: ");
         String cpf = input.nextLine();
+
+        if (cpf.length() != 11) {
+            System.out.println("Cpf inválido\nFuncionário não cadastrado");
+            return;
+        }
 
         System.out.print("Telefone: ");
         String telefone = input.nextLine();
